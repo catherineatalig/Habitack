@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body {
+  background-color: #ffff66;
+}
+</style>
   <title>HABITACK</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script
@@ -15,6 +20,19 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<div class="fixed-action-btn horizontal click-to-toggle">
+    <a class="btn-floating btn-large red">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul>
+      <li><a href="startpage.html" class="btn-floating red"><i class="material-icons">home</i></a></li>
+      <li><a href="startpage.html#info"class="btn-floating yellow darken-1"><i class="material-icons">info</i></a></li>
+      <li><a href="startpage.html#video"class="btn-floating green"><i class="material-icons">videocam</i></a></li>
+      <li><a href="startpage.html#help"class="btn-floating blue"><i class="material-icons">attach_money</i></a></li>
+    </ul>
+  </div>
+
+
 <style type="text/css" media="screen">
     canvas, img { display:block; margin:1em auto; border:1px solid black; }
     canvas { background:url(underwater.jpg) }
@@ -24,18 +42,7 @@ canvas {
     /*background-url:(underwater.jpg);*/
     border:1px solid #d3d3d3;
   }
-/*.button {
-    background-color: #4CAF50; /* Green */
-    /*border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}*//
+
 #middle{
   text-align: center;
 }
@@ -46,26 +53,6 @@ body {
 </style>
 </head>
 <body onload="startGame()">
-
-
-  <!-- <nav class="teal" role="navigation">
-    <div class="nav-wrapper">
-      <a id="logo-container" href="startpage.html"><img border="0" alt="W3Schools" src="logo3.png" align = "left" width="200" height="75"></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav> -->
-
-
-
-
 
 
 <script>
